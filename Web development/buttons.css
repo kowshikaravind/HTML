@@ -1,0 +1,37 @@
+ /*p{all the margin to 0 and font-family can be commonly called here}*/
+  .text{
+    font-family: Arial;
+    font-weight:bold ;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom:5px;
+  }
+  .para{
+    font-family: Arial;
+    font-size: 14px;
+    color:grey;
+    margin-top:0;
+  }
+  .aut{
+    font-family:Arial;
+    font-size: 14px;
+    color:grey;
+    margin-bottom:100px;
+  }
+  .shoptxt{
+    margin-bottom:50px;
+    font-family:Arial;
+    font-size:14px;
+    background-color:red;
+    color:white;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .shop{
+    cursor:pointer;
+  }
+  .shop:hover{
+    text-decoration:underline;
+  }
