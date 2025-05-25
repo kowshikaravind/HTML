@@ -13,6 +13,7 @@
       }
       .video-section{
         display: flex;
+
         padding:20px;
 
       }
@@ -35,17 +36,9 @@
         height: 200px;
         display: block; 
       }
-      .Profile-pic{
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-        background-color: grey;
-
-      }
-      .paragraph{
-        display: inline-block;
-        width: 200px;
-        background-color: grey;
+      .video-grid{
+        display:grid;
+        grid-template-columns: 50px 1fr;
       }
       .prof{
         width: 40px;
@@ -72,7 +65,7 @@
         <div class="thumbnail-row">
           <img class="thumbnail" src="Thumbnails/thumbnail655.jpg">
         </div>
-        <div>
+        <div class="video-grid">
           <div class="Profile-pic">
             <img class="prof" src="profile/profile.jpg">
           </div>
@@ -89,14 +82,12 @@
           </div>
         </div>
       </div>
-
-
-
+      
       <div class="video-prev">
         <div class="thumbnail-row">
           <img class="thumbnail" src="Thumbnails/wallp1aper.jpg">
         </div>
-        <div>
+        <div class="video-grid">
           <div class="Profile-pic">
             <img class="prof" src="Profile/cars.jpg">
           </div>
@@ -111,7 +102,8 @@
               500K views &#183; 5 weeks ago
             </p>
         </div>
-      </div>
+      </div> 
     </div>  
+    
   </body>
 </html>
