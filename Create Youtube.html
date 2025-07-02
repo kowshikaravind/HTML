@@ -2,151 +2,173 @@
 <html>
   <head>
     <title>New Youtube</title>
-    <style>
-      p{
-        font-family: Arial;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .Main-1{
-        display: inline-block;
-        width: 300px;
-      }
-      .Search-bar{
-        display:block;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-        height: 30px;
-        width: 300px;
-      }
-      
-      .class1{
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-      .Image-one{
-        width:300px;
-      }
-      .video-dis{
-        margin-top: 0;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 10px;
-      }
-      .profile-ch1{
-        border-radius:0px;
-      }
-      .profile-ch1{
-        width: 30px;
-      }
-      .video-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 40px;
-      }
-      .para2{
-        margin-top: 8px;
-      }
-      .para3{
-        margin-top: 3px;
-      }
-      
-      
-    </style>
+    <link rel="stylesheet" href="Styles/video.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/sidebar.css">
   </head>
   <body>
-    <input class="Search-bar" type="text" placeholder="Search">
+    <div class="header">
+      <div class="lft-sec">
+        <img class="menus" src="Icon/Hamburger_icon.svg.png">
+        <img class="yt-logo" src="Icon/images.png">
+      </div>
+      <div class="mid-sec">
+        <input class="Search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-img" src="Icon/download (3).png">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic-button">
+          <img class="mic-img" src="Icon/free-microphone-icon-342-thumb.png">
+          <div class="tooltip">Search with Voice</div>
+        </button>
+      </div>
+      <div class="rgt-sec">
+        <button class="up-button">
+          <img class="up-img" src="Profile/Upload.png">
+          <div class="tooltip">Upload</div>
+        </button>
+        <button class="app-button">
+          <img class="app-img" src="Profile/apps.webp">
+          <div class="tooltip">Youtube apps</div>
+        </button>
+        <div class="notification">
+          <button class="bell-button">
+            <img class="bell-img" src="Icon/download (2).png">
+            <div class="tooltip">Notification</div>
+          </button>
+          <div class="notifi">3</div>
+        </div>
+        
+        <button class="pr-button" >
+          <img class="pr-img" src="Thumbnails/New folder/Prof.png">
+          <div class="tooltip">Your Profile</div>
+        </button>
+      </div>
+      
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-items">
+        <img class="home" src="sidebar/h.png">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-items">
+        <img class="home" src="sidebar/e.png">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-items">
+        <img class="home" src="sidebar/sub.png">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-items">
+        <img class="home" src="sidebar/org-removebg-preview.png">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-items">
+        <img class="home" src="sidebar/youtube-music.png">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-items">
+        <img class="home" src="sidebar/lib.png">
+        <div>Library</div>
+      </div>
+    </div>
     <div class="video-grid">
       <div class="Main-1">
-        <div>
+        <div class="thumbnail-1">
           <img class="Image-one" src="Thumbnails/thumbnail655.jpg">
+          <div class="video-time">14:20</div>
         </div>
         <div class="class1">
           <div class="class2">
-            <img class="profile-ch1" src="Thumbnails/facebook.png">
+            <img class="profile-ch1" src="Thumbnails/New folder/download (1).jpeg">
           </div>
           <div class="video-dis">
             <p class="para1"> This is the channel for all my followers</p>
             <p class="para2"> Racer</p>
-            <p class="para3"> 3.4M views . 6 month ago</p>
+            <p class="para3"> 3.1M views &#183; 4 month ago</p>
           </div>
         </div>
       </div>
       <div class="Main-1">
-        <div>
-          <img class="Image-one" src="Thumbnails/thumbnail655.jpg">
+        <div class="thumbnail-1">
+          <img class="Image-one" src="Thumbnails/time.jpg">
+          <div class="video-time">13:16</div>
         </div>
         <div class="class1">
           <div class="class1">
-            <img class="profile-ch1" src="Thumbnails/facebook.png">
+            <img class="profile-ch1" src="Thumbnails/New folder/download (2).jpeg">
+            
           </div>
           <div class="video-dis">
-              <p class="para1"> This is the channel for all my followers. Hey qwey urhuh rhuirhtu nfbhbdfu</p>
-            <p class="para2"> Racer</p>
-            <p class="para3"> 3.4M views . 6 month ago</p>
+              <p class="para1"> You Won't Believe What Happened Next!</p>
+            <p class="para2"> Explorer</p>
+            <p class="para3"> 579K views &#183; 1 year ago</p>
           </div>
         </div>
       </div>
       <div class="Main-1">
-        <div>
-          <img class="Image-one" src="Thumbnails/thumbnail655.jpg">
+        <div class="thumbnail-1">
+          <img class="Image-one" src="Thumbnails/Fitness_Men_Bodybuilding_Workout_Hands_Belly_586682_1920x1200.jpg">
+          <div class="video-time">21:45</div>
         </div>
         <div class="class1">
           <div class="class1">
-            <img class="profile-ch1" src="Thumbnails/facebook.png">
+            <img class="profile-ch1" src="Thumbnails/New folder/download.jpeg">
           </div>
           <div class="video-dis">
-            <p class="para1"> This is the channel for all my followers</p>
-            <p class="para2"> Racer</p>
-            <p class="para3"> 3.4M views . 6 month ago</p>
+            <p class="para1"> Before and After - The Shocking Transformation!</p>
+            <p class="para2"> Fitness</p>
+            <p class="para3"> 1M views &#183; 3 months ago</p>
           </div>
         </div>
       </div>
       <div class="Main-1">
-        <div>
-          <img class="Image-one" src="Thumbnails/thumbnail655.jpg">
+        <div class="thumbnail-1">
+          <img class="Image-one" src="Thumbnails/challange.avif">
+          <div class="video-time">30:55</div>
         </div>
         <div class="class1">
           <div class="class1">
-            <img class="profile-ch1" src="Thumbnails/facebook.png">
+            <img class="profile-ch1" src="Thumbnails/New folder/images (1).jpeg">
           </div>
           <div class="video-dis">
-              <p class="para1"> This is the channel for all my followers. Hey qwey urhuh rhuirhtu nfbhbdfu</p>
-            <p class="para2"> Racer</p>
-            <p class="para3"> 3.4M views . 6 month ago</p>
+              <p class="para1">I Tried This for 7 Days - Here's What Happened </p>
+            <p class="para2">lifestyle experiments </p>
+            <p class="para3"> 299K views &#183; 8 month ago</p>
           </div>
         </div>
       </div>
       <div class="Main-1">
-        <div>
-          <img class="Image-one" src="Thumbnails/thumbnail655.jpg">
+        <div class="thumbnail-1">
+          <img class="Image-one" src="Thumbnails/gam.jpeg">
+          <div class="video-time">10:22</div>
         </div>
         <div class="class1">
           <div class="class1">
-            <img class="profile-ch1" src="Thumbnails/facebook.png">
+            <img class="profile-ch1" src="Thumbnails/New folder/images (2).jpeg">
           </div>
           <div class="video-dis">
-            <p class="para1"> This is the channel for all my followers</p>
-            <p class="para2"> Racer</p>
-            <p class="para3"> 3.4M views . 6 month ago</p>
+            <p class="para1"> Top 5 Secrets They Don't Want You to Know</p>
+            <p class="para2"> Gamer</p>
+            <p class="para3"> 9.8K views &#183; 10 hours ago</p>
           </div>
         </div>
       </div>
       <div class="Main-1">
-        <div>
-          <img class="Image-one" src="Thumbnails/thumbnail655.jpg">
+        <div class="thumbnail-1">
+          <img class="Image-one" src="Thumbnails/money.jpeg">
+          <div class="video-time">32:10</div>
         </div>
         <div class="class1">
           <div class="class1">
-            <img class="profile-ch1" src="Thumbnails/facebook.png">
+            <img class="profile-ch1" src="Thumbnails/New folder/images.jpeg">
           </div>
           <div class="video-dis">
-              <p class="para1"> This is the channel for all my followers. Hey qwey urhuh rhuirhtu nfbhbdfu</p>
-            <p class="para2"> Racer</p>
-            <p class="para3"> 3.4M views . 6 month ago</p>
+              <p class="para1"> I Spent $1000 On [Item] - Was It Worth It?</p>
+            <p class="para2"> reviewer</p>
+            <p class="para3"> 4.4M views &#183; 1 hour ago</p>
           </div>
         </div>
       </div>
